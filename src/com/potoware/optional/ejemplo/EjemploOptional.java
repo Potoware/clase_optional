@@ -21,7 +21,7 @@ public class EjemploOptional {
 
         opt.ifPresent(valor -> System.out.println(valor));
         opt.ifPresentOrElse(valor -> System.out.println(valor),()-> System.out.println("No existe"));
-        
+
         Optional<String> optEmpty = Optional.empty();
         System.out.println(opt.isEmpty());
     }
