@@ -1,13 +1,26 @@
 package com.potoware.optional.ejemplo.models;
 
+import java.util.Optional;
+
 public class Computador {
 
     private String nombre;
     private String modelo;
 
+    public Optional<Procesador> getProcesador() {
+        return Optional.ofNullable(procesador);
+    }
+
+    public void setProcesador(Procesador procesador) {
+        this.procesador = procesador;
+    }
+
+    private Procesador procesador;
+
     public Computador(String nombre, String modelo) {
         this.nombre = nombre;
         this.modelo = modelo;
+
     }
 
     public String getNombre() {
