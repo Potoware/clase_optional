@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fedb0476-2ca8-4942-a151-aee222102757" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/optional/ejemplo/EjemploRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/optional/ejemplo/models/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/optional/ejemplo/repositorio/ComputadorRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/potoware/optional/ejemplo/repositorio/IRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/optional/ejemplo/EjemploRepositorioMetodosOrElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/potoware/optional/ejemplo/EjemploRepositorioMetodosThrow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/potoware/optional/ejemplo/EjemploOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/potoware/optional/ejemplo/EjemploOptional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/clase_optional/com/potoware/optional/ejemplo/EjemploRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/clase_optional/com/potoware/optional/ejemplo/EjemploRepositorio.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.EjemploRepositorio">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.potoware.optional.ejemplo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EjemploRepositorioMetodosThrow">
     <configuration name="EjemploOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.potoware.optional.ejemplo.EjemploOptional" />
       <module name="clase_optional" />
@@ -64,8 +67,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploRepositorioMetodosOrElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potoware.optional.ejemplo.EjemploRepositorioMetodosOrElse" />
+      <module name="clase_optional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.potoware.optional.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploRepositorioMetodosThrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potoware.optional.ejemplo.EjemploRepositorioMetodosThrow" />
+      <module name="clase_optional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.potoware.optional.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploRepositorioMetodosThrow" />
+        <item itemvalue="Application.EjemploRepositorioMetodosOrElse" />
         <item itemvalue="Application.EjemploRepositorio" />
         <item itemvalue="Application.EjemploOptional" />
       </list>
